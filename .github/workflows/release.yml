@@ -27,5 +27,5 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         binary_name: "go-release-test"
-        md5sum: false
+        md5sum: FALSE
         
